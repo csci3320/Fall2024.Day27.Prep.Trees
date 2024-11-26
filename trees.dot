@@ -1,0 +1,10 @@
+digraph d{
+  foundation->framing
+  framing->electrical
+  framing->plumbing
+  framing->hvac
+  electrical->drywall
+  plumbing->drywall
+  hvac->drywall
+  drywall->painting
+}
